@@ -20,7 +20,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGX-VD-HgI">
                                 <rect key="frame" x="110.5" y="256.5" width="155" height="155"/>
-                                <state key="normal" image="recordButton"/>
+                                <state key="normal" image="recordBtn"/>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AHZ-z1-G2Q"/>
                                 </connections>
@@ -37,7 +37,7 @@
                                     <constraint firstAttribute="height" constant="64" id="DkE-V2-HAw"/>
                                     <constraint firstAttribute="width" constant="64" id="Q0B-x8-Ijr"/>
                                 </constraints>
-                                <state key="normal" image="stopRecordingButton"/>
+                                <state key="normal" image="stopRecordingBtn"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="key-PV-ufc"/>
                                 </connections>
@@ -62,11 +62,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12" y="-91"/>
+            <point key="canvasLocation" x="146" y="-102"/>
         </scene>
     </scenes>
     <resources>
-        <image name="recordButton" width="155" height="155"/>
-        <image name="stopRecordingButton" width="155" height="155"/>
+        <image name="recordBtn" width="155" height="155"/>
+        <image name="stopRecordingBtn" width="155" height="155"/>
     </resources>
 </document>
