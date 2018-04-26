@@ -69,7 +69,7 @@
         <!--Play Sounds View Controller-->
         <scene sceneID="mRP-ng-tUO">
             <objects>
-                <viewController id="feI-ig-98B" customClass="PlaySoundsViewController" sceneMemberID="viewController">
+                <viewController id="feI-ig-98B" customClass="PlaySoundsViewController" customModule="Pitch_Perfect_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Czo-qQ-yvn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PlaySoundsViewCotroller: UIViewController {
+class PlaySoundsViewController: UIViewController {
     
     //Global Variable
     
