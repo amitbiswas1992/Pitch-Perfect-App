@@ -54,12 +54,12 @@ class PlaySoundsViewController: UIViewController {
         configureUI(.playing)
     }
     
-   
-    @IBAction func stopButtonPressed(_ sender: AnyObject) {
-        
+  
+    @IBAction func stopButtonPressed(_ sender: UIButton) {
     }
     
     
+  
     override func viewDidLoad() {
         super.viewDidLoad()
          setupAudio()
