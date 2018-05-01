@@ -57,7 +57,7 @@ class RecordSoundsViewController: UIViewController,AVAudioRecorderDelegate {
         
     }
     
-    // Used ternary operator
+    // Used ternary operator by implementing this function
     
     func configureRecordButtons(_ isRecording:Bool) {
         recordingLabel.text = isRecording ? "Recording in progress": "Tap to Record"
