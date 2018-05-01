@@ -13,7 +13,7 @@ class RecordSoundsViewController: UIViewController,AVAudioRecorderDelegate {
     
     var audioRecorder: AVAudioRecorder!
     
-    // Button connection 
+    // Button connection
     
     @IBOutlet weak var recordingLabel: UILabel!
     @IBOutlet weak var recordButton: UIButton!
